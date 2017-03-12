@@ -1,11 +1,17 @@
-h1. Compiling as a node module
+# Build it
 
 ```
-tsc main.ts
+./build.sh
 ```
+
+# Run as node module
 
 Run it:
 
 ```
-node main.js
+node out/node/main.js
 ```
+
+# Run in browser
+
+Open index.html in browser
